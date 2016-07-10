@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Camera", "Camera", "{F8AFF8B5-A526-404C-BFE7-660EB2791D3A}"
+EndProject
+Project("{39E2626F-3545-4960-A6E8-258AD8476CE5}") = "Camera.Packaging", "Camera\Camera.Packaging\Camera.Packaging.androidproj", "{F4E5B477-FF3F-4710-A56D-A1C86325E37F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Camera.NativeActivity", "Camera\Camera.NativeActivity\Camera.NativeActivity.vcxproj", "{A2124636-585B-48AF-8F44-A826C4EEBB16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Debug|ARM.Build.0 = Debug|ARM
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Debug|ARM.Deploy.0 = Debug|ARM
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Debug|ARM64.Build.0 = Debug|ARM64
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Debug|x64.ActiveCfg = Debug|x64
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Debug|x64.Build.0 = Debug|x64
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Debug|x64.Deploy.0 = Debug|x64
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Debug|x86.ActiveCfg = Debug|x86
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Debug|x86.Build.0 = Debug|x86
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Debug|x86.Deploy.0 = Debug|x86
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Release|ARM.ActiveCfg = Release|ARM
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Release|ARM.Build.0 = Release|ARM
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Release|ARM.Deploy.0 = Release|ARM
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Release|ARM64.ActiveCfg = Release|ARM64
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Release|ARM64.Build.0 = Release|ARM64
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Release|ARM64.Deploy.0 = Release|ARM64
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Release|x64.ActiveCfg = Release|x64
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Release|x64.Build.0 = Release|x64
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Release|x64.Deploy.0 = Release|x64
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Release|x86.ActiveCfg = Release|x86
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Release|x86.Build.0 = Release|x86
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F}.Release|x86.Deploy.0 = Release|x86
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Debug|ARM.Build.0 = Debug|ARM
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Debug|ARM64.Build.0 = Debug|ARM64
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Debug|x64.ActiveCfg = Debug|x64
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Debug|x64.Build.0 = Debug|x64
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Debug|x86.ActiveCfg = Debug|x86
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Debug|x86.Build.0 = Debug|x86
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Release|ARM.ActiveCfg = Release|ARM
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Release|ARM.Build.0 = Release|ARM
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Release|ARM64.ActiveCfg = Release|ARM64
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Release|ARM64.Build.0 = Release|ARM64
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Release|x64.ActiveCfg = Release|x64
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Release|x64.Build.0 = Release|x64
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Release|x86.ActiveCfg = Release|x86
+		{A2124636-585B-48AF-8F44-A826C4EEBB16}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4E5B477-FF3F-4710-A56D-A1C86325E37F} = {F8AFF8B5-A526-404C-BFE7-660EB2791D3A}
+		{A2124636-585B-48AF-8F44-A826C4EEBB16} = {F8AFF8B5-A526-404C-BFE7-660EB2791D3A}
+	EndGlobalSection
+EndGlobal
